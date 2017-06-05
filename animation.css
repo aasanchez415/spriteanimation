@@ -1,0 +1,81 @@
+
+body{
+  height:10000px;
+  width:1000px;
+  background-color: tan;
+
+
+
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;}
+
+#logo {
+  background: url(images/sprite1.png);
+  width: 530px;
+  height:769px;
+
+-webkit-animation: walk-east 1.0s steps(9) infinite;
+animation: walk-east 1.0s steps(9) infinite;
+}
+-webkit-@keyframes walk-east {
+  from {background-position: 0px;}
+  to { background-position: 4805px;}
+
+}
+
+@keyframes walk-east {
+  from {background-position: 0px;}
+  to { background-position:4805px;}
+
+}
+
+#clouds {
+  background-image: url(images/clouds.png);
+  width: 10000px;
+  height:10000px;
+  top:-10000px;
+
+
+
+
+-webkit-animation: walk-east 1.0s steps(9) infinite;
+animation: walk-east 1.0s steps(9) infinite;
+}
+
+#kaboom {
+  background-image: url(images/kaboom.png);
+  width: 10000px;
+  height:10000px;
+  top:-10000px;
+
+
+
+
+-webkit-animation: walk-east 1.0s steps(9) infinite;
+animation: walk-east 1.0s steps(9) infinite;
+}
+
+#menu{
+text-align: center;
+}
